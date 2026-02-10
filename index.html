@@ -1,10 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Hompage</title>
+        <title>Homepage</title>
         <meta charset="UTF-8">
+        <style>
+            .box{
+                border: 2px solid #4caf50;
+                border-radius: 10px;                    /* round corners */
+                background-color:#f0f9f5;
+                padding: 20px;                          /* space inside box */
+                margin:12px;                            /* space between boxes */
+                box-shadow: 2px 2px 8px rgba(0,0,0,0.1); /* subtle shadow for depth */
+                }
+
+            .box-title{text-align: center;
+                color:#333;}
+        </style>
     </head>
     <body>
-        <h1>This is the website</h1>
+        <h1><i>This is a website</i></h1>
+        <br/>
+        <div class="box" id="box-1">
+            <h1 class="box-title">Vrai truc</h1>
+        TBD    
+        </div>
+        <br/>
+        <div class="box" id="box-2">
+            <h1 class="box-title">My arsenal</h1>
+            <a href = "https://fr.wikipedia.org/wiki/Lapin" target="_blank" >
+                <img width=150 src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtrfpwyVfNYCrSKO4e8XqAjUtI03_Vojel0IXyVskuaY29O9pzcHHk6yYVoXFbgwDP4wg8Rwxz6Zx1PMOEv8ZskuGOjnQZVn6PVahuyunMTHJ31BPRK3_hfIqkJTKm&s=10&ec=121528429">
+            </a>
+            <button>Click me lol</button>
+            <input>
+
+        </div>
+        <br/>
+        <div class="box" id="box-2">This testecond box</div>
+        <br/>
+        <div class="box" id="box-2">This testecond box</div>
     </body>
 </html>
