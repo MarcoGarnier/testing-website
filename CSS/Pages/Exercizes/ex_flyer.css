@@ -1,1 +1,18 @@
-body {background-color:red}
+main,header,footer {
+    width:70%;
+    margin:auto;
+}
+
+footer, header {
+    text-align:center;
+}
+
+header>img {
+    display:block;
+    width:50%;
+    margin:auto;
+}
+
+#night-2 {
+    text-align: right;
+}
